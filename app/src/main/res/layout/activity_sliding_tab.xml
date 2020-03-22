@@ -22,6 +22,7 @@
                 android:background="#666666"
                 android:paddingTop="15dp"
                 android:paddingBottom="15dp"
+                android:visibility="gone"
                 tl:tl_indicator_gravity="TOP"
                 tl:tl_textBold="SELECT"
                 tl:tl_underline_color="#1A000000"
@@ -33,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="#EEEEEE"
+                android:visibility="gone"
                 tl:tl_divider_color="#1A000000"
                 tl:tl_divider_padding="13dp"
                 tl:tl_divider_width="1dp"
@@ -53,6 +55,7 @@
                 android:background="#3F9FE0"
                 tl:tl_textAllCaps="true"
                 tl:tl_textBold="BOTH"
+                tl:tl_textSelsize="20dp"
                 tl:tl_textsize="14sp" />
 
             <com.flyco.tablayout.SlidingTabLayout
@@ -60,16 +63,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="#009688"
+                tl:tl_indicator_width_equal_title="true"
                 tl:tl_tab_padding="10dp"
                 tl:tl_tab_width="95dp"
-                tl:tl_textSelsize="20sp"
                 tl:tl_textBold="SELECT"
-                tl:tl_textsize="15sp"
                 tl:tl_textBottom="true"
+                tl:tl_textSelsize="20sp"
                 tl:tl_text_bottom_margin="3dp"
-                tl:tl_indicator_width_equal_title="true"/>
+                tl:tl_textsize="15sp" />
 
             <com.flyco.tablayout.SlidingTabLayout
+                android:visibility="gone"
                 android:id="@+id/tl_5"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -77,6 +81,7 @@
                 tl:tl_indicator_width="10dp" />
 
             <com.flyco.tablayout.SlidingTabLayout
+                android:visibility="gone"
                 android:id="@+id/tl_6"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -86,6 +91,7 @@
                 tl:tl_indicator_width="4dp" />
 
             <com.flyco.tablayout.SlidingTabLayout
+                android:visibility="gone"
                 android:id="@+id/tl_7"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -95,6 +101,7 @@
                 tl:tl_indicator_width="10dp" />
 
             <com.flyco.tablayout.SlidingTabLayout
+                android:visibility="gone"
                 android:id="@+id/tl_8"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -104,6 +111,7 @@
 
             <com.flyco.tablayout.SlidingTabLayout
                 android:id="@+id/tl_9"
+                android:visibility="gone"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="#6D8FB0"
@@ -114,6 +122,7 @@
                 tl:tl_indicator_style="BLOCK" />
 
             <com.flyco.tablayout.SlidingTabLayout
+                android:visibility="gone"
                 android:id="@+id/tl_10"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
