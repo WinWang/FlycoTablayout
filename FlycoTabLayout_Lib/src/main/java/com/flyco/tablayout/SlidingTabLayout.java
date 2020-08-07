@@ -202,6 +202,7 @@ public class SlidingTabLayout extends HorizontalScrollView implements ViewPager.
         this.mViewPager.removeOnPageChangeListener(this);
         this.mViewPager.addOnPageChangeListener(this);
         notifyDataSetChanged();
+        updateTabSelection(mCurrentTab);
     }
 
     /**
@@ -227,6 +228,7 @@ public class SlidingTabLayout extends HorizontalScrollView implements ViewPager.
         this.mViewPager.removeOnPageChangeListener(this);
         this.mViewPager.addOnPageChangeListener(this);
         notifyDataSetChanged();
+        updateTabSelection(mCurrentTab);
     }
 
     /**
@@ -247,6 +249,7 @@ public class SlidingTabLayout extends HorizontalScrollView implements ViewPager.
         this.mViewPager.removeOnPageChangeListener(this);
         this.mViewPager.addOnPageChangeListener(this);
         notifyDataSetChanged();
+        updateTabSelection(mCurrentTab);
     }
 
     /**
